@@ -11,7 +11,7 @@
 「そっちに行っちゃいかーん！！！」[l][r]
 [bg storage=Grass-4.jpg time=500]
 草むらに入ろうとすると見知らぬおじさんの声が聞こえた。[l][r]
-「おぬしモケモンを持っておらんじゃろ！そのまま草むらに入ると殺されてしまうぞ！」[1][r]
+「おぬしモケモンを持っておらんじゃろ！そのまま草むらに入ると殺されてしまうぞ！」[l][r]
 [cm]
 [link target=*tag_mushi] →無視して草むらに入る [endlink][r]
 [link target=*tag_unazuku] →納得して家に帰る [endlink][r]
@@ -32,11 +32,11 @@
 ・[l][r]
 ・[l][r]
 [bg storage=magamaga.jpg time=500]
-急に禍々しい気配がした...。
-なにか、なにか来るっ...!
+急に禍々しい気配がした...。[l][r]
+なにか、なにか来るっ...![l][r]
 [cm]
 [bg storage=bakemono.jpg time=500]
-あ！　みたこともない　ばけもの　が　あらわれた！[1][r]
+あ！　みたこともない　ばけもの　が　あらわれた！[l][r]
 どうする？[l][r]
 [link target=*tag_tatakau] →戦う [endlink][r]
 [link target=*tag_unazuku] →逃げる [endlink][r]
