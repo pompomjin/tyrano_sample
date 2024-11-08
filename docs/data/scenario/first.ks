@@ -9,7 +9,7 @@
 [cm]
 
 「そっちに行っちゃいかーん！！！」[l][r]
-[bg storage=Grass-4.jpg time=500]
+[bg storage=grass.jpg time=500]
 草むらに入ろうとすると見知らぬおじさんの声が聞こえた。[l][r]
 「おぬしモケモンを持っておらんじゃろ！そのまま草むらに入ると殺されてしまうぞ！」[l][r]
 [cm]
@@ -17,15 +17,14 @@
 [link target=*tag_unazuku] →納得して家に帰る [endlink][r]
 [s]
 
-
 *tag_mushi
 
 [cm]
 
-[bg storage=run(2).jpg time=500]
+[bg storage=running.jpg time=500]
 
-「おい！まて！本当に危ないぞ！」][l][r]
-みしらぬおじさんの静止を無視して草むらに突っ込んだ！[l][r]
+「おい！まて！本当に危ないぞ！」[l][r]
+見知らぬおじさんの静止を無視して草むらに突っ込んだ！[l][r]
 [cm]
 [bg storage=black.jpg time=500]
 ・[l][r]
@@ -41,12 +40,14 @@
 [link target=*tag_tatakau] →戦う [endlink][r]
 [link target=*tag_unazuku] →逃げる [endlink][r]
 [s]
+
 *tag_tatakau
 [cm]
 どうたたかう？
 [link target=*tag_naguru] →なぐる [endlink][r]
 [link target=*tag_unazuku] →素手では立ち向かえないので武器を探す [endlink][r]
 [s]
+
 *tag_naguru
 いちかばちか　こんしんのちから　を　つかって　なぐった！[l][r]
 [bg storage=omedeta.jpg time=500]
