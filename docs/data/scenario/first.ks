@@ -1,46 +1,75 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="目指そう！モケモンマスター！"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「目指そう！モケモンマスター！」[l][r]
+[cm]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+「そっちに行っちゃいかーん！！！」[l][r]
+[bg storage=Grass-4.jpg time=500]
+草むらに入ろうとすると見知らぬおじさんの声が聞こえた。[1][r]
+「おぬしモケモンを持っておらんじゃろ！そのまま草むらに入ると殺されてしまうぞ！」[1][r]
+[cm]
+[link target=*tag_mushi] →無視して草むらに入る [endlink][r]
+[link target=*tag_unazuku] →納得して家に帰る [endlink][r]
 [s]
 
-*tag_sleep
+
+*tag_mushi
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=run(2).jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
-
-【 BAD END 】[l][cm]
-
+「おい！まて！本当に危ないぞ！」][l][r]
+みしらぬおじさんの静止を無視して草むらに突っ込んだ！[1][r]
+[cm]
+[bg storage=black.jpg time=500]
+・[1][r]
+・[1][r]
+・[1][r]
+[bg storage=magamaga.jpg time=500]
+急に禍々しい気配がした...。
+なにか、なにか来るっ...!
+[cm]
+[bg storage=bakemono.jpg time=500]
+あ！　みたこともない　ばけもの　が　あらわれた！[1][r]
+どうする？[1][r]
+[link target=*tag_tatakau] →戦う [endlink][r]
+[link target=*tag_unazuku] →逃げる [endlink][r]
+[s]
+*tag_tatakau
+[cm]
+どうたたかう？
+[link target=*tag_naguru] →なぐる [endlink][r]
+[link target=*tag_unazuku] →素手では立ち向かえないので武器を探す [endlink][r]
+[s]
+*tag_naguru
+いちかばちか　こんしんのちから　を　つかって　なぐった！[1][r]
+[bg storage=omedeta.jpg time=500]
+内に秘めた大いなる力が覚醒し、化け物を打ち倒した！[1][r]
+おめでとう！きみはすべてのモケモンを倒すモケモンマスターになる資格を手に入れた！[1][r]
+君の戦いはこれからだ！[1][r]
+[cm]
+【 HAPPY END 】[l][cm]
 [jump target=*start]
 
-*tag_run
+*tag_unazuku
 
-[bg storage=run.jpg time=500]
+[bg storage=bakuhatsu.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
-
-【 GOOD END 】[l][cm]
+ころされた[1][r]
+逃げているようではモケモンマスターになれない。[1][r]
+[cm]
+[bg storage=black.jpg time=500]
+・[1][r]
+・[1][r]
+・[1][r]
+きみはめのまえがまっくらになった！[1][r]
+【 BAD END 】[l][cm]
 
 [jump target=*start]
